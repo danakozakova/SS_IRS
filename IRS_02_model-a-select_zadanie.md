@@ -122,15 +122,27 @@ INSERT INTO hry VALUES
 ```
 
 ## Zopakuj si (SELECT z minula)
-**S1.** Vypíš celú tabuľku.  **S2.** Vypíš len **názvy a ceny**.  **S3.** Vypíš hry žánru **FPS**.
+
+**S1.** Vypíš celú tabuľku.  
+
+**S2.** Vypíš len **názvy a ceny**.  
+
+**S3.** Vypíš hry žánru **FPS**.
+
 **S4.** Zoraď hry **od najdrahšej**.
 
 ## Presnejšie filtrovanie
+
 **F1.** RPG hry vydané **po roku 2019**. *(`AND`)*
+
 **F2.** Hry, ktoré sú **zadarmo** (cena 0).
+
 **F3.** Hry s cenou **od 10 do 30 €** (vrátane). *(`BETWEEN`)*
+
 **F4.** Hry, ktoré sú **RPG alebo FPS**. *(`IN`)*
+
 **F5.** Hry, ktorých názov **začína na C**. *(`LIKE 'C%'`)*
+
 **F6.** Hry drahšie ako **40 € a zároveň** hodnotené **nad 9**.
 
 ## Práca s dátumom (nový stĺpec)

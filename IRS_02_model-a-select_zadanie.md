@@ -146,13 +146,17 @@ INSERT INTO hry VALUES
 **F6.** Hry drahšie ako **40 € a zároveň** hodnotené **nad 9**.
 
 ## Práca s dátumom (nový stĺpec)
-**F7.** Hry **aktualizované po** `2026-08-01`. *(`WHERE aktualizovane > '2026-08-01'`)*
-**F8.** Zoraď hry **od najnovšie aktualizovanej**. *(`ORDER BY aktualizovane DESC`)*
-**F9. (rozmysli)** Skús `SELECT * FROM hry ORDER BY aktualizovane;` — zoradí sa dátum správne? Prečo áno? *(súvis s ISO formátom a doménou)*
+
+**F7.** Hry **aktualizované po** `2026-08-01`. 
+
+**F8.** Zoraď hry **od najnovšie aktualizovanej**. 
+
+**F9. (rozmysli)** Skús `SELECT * FROM hry ORDER BY aktualizovane;` — zoradí sa dátum správne? Prečo áno? 
 
 ---
 
 ## 🔜 Na zamyslenie do budúcej hodiny
 Žáner `RPG` sa v tabuľke **opakuje**. Čo keby sme si ku každému žánru chceli uložiť aj popis?
+
 Museli by sme ho písať znova pri každej hre… Preto databáza často potrebuje **viac prepojených
 tabuliek** — o tom bude ďalšia hodina.

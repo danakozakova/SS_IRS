@@ -22,7 +22,9 @@ zameriame sa na **doménu** (čo do stĺpca smie a čo nie — a kde vznikajú c
 | 10 | Among Us         | Party   | 2018 | 8.0       | 3.99  | 2026-09-12 13:05   |
 
 **Entita** = „vec", o ktorej si vedieme údaje → tu **hra**.
+
 **Atribút** = vlastnosť = **stĺpec** (`nazov`, `zaner`, `rok`, `hodnotenie`, `cena`, `aktualizovane`, `id`).
+
 **Záznam = N-tica** = jeden riadok, napr. `(1, The Witcher 3, RPG, 2015, 9.3, 29.99, 2026-07-15 09:20)`.
 
 ## Doména — čo do stĺpca smie
@@ -32,6 +34,7 @@ dávajú **zmysel**. Pozor — dátový typ býva **širší** než doména: typ
 domény ceny `-5` nepatrí. Preto sa doména v praxi stráži **obmedzeniami** (o tých neskôr).
 
 Príklady domén v tabuľke `hry`:
+
 - `rok` → celé čísla, rozumne 1958–tento rok
 - `cena` → **nezáporné** desatinné čísla (0 a viac)
 - `hodnotenie` → čísla v rozsahu **0–10**
@@ -51,6 +54,7 @@ Preto sa ceny v praxi ukladajú ako **presný typ (DECIMAL)** alebo **v centoch 
 ale hodnota do domény **nepatrí**. Riešenie: povolené hodnoty držať v samostatnom zozname (číselníku).
 
 **4) Dátumy a časy.**
+
 - **Formát:** `03/04/2026` — je to 3. apríl alebo 4. marec? Nejednoznačné! Databázy používajú
   **ISO 8601: `RRRR-MM-DD`** (napr. `2026-04-03`), ktoré je jednoznačné a správne sa **zoraďuje**.
 - **Platnosť:** `2026-02-30` neexistuje; 31. apríl neexistuje; `29. február` je len v priestupných rokoch.

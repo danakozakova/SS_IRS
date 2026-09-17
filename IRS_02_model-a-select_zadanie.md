@@ -65,6 +65,7 @@ Keď server zapíše `12:00 UTC`, u nás je vtedy 13:00 (zima) alebo 14:00 (leto
 ukladá v **UTC** a používateľovi sa zobrazí v jeho pásme.
 
 ## Dáta vs. informácia
+
 *Dáta* = surové hodnoty (`29.99`). *Informácia* = zmysluplný výsledok z dát („najlacnejšia hra je
 Counter-Strike 2"). Reťazec: **dáta → dopyt → informácia.**
 
